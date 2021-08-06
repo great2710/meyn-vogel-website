@@ -1,0 +1,145 @@
+/* hier oben Schrift für gesamte website festlegen*/
+
+body{
+    background-color: #4E676F; 
+    font-family:'Noto Sans JP', sans-serif; 
+}
+
+.Kopfzeile {
+    overflow: hidden;
+    background-color: #10303B;
+    text-align: right;
+}
+
+.Kopfzeile a {
+    color: white;
+    text-align: center;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.Kopfzeile a:hover {
+    background-color: beige;
+    color: black;
+}
+
+.Kopfzeile li {
+    list-style-type: none;
+    display: inline;
+}
+
+.Fusszeile {
+    overflow: hidden;
+    background-color: #10303B;
+    text-align: center;
+}
+
+.Fusszeile a {
+    color: white;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.Fusszeile li {
+    list-style-type: none;
+    display:inline; 
+}
+
+.Fusszeile a:hover {
+    background-color: beige;
+    color: black;
+}
+
+.centeredphoto {
+    width: 1500px;
+    margin: 6px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: white; 
+}
+
+#dickereschrift {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+.Textboxen { 
+    background-color: beige;
+    text-align: center;
+    display: inline-block;
+    height: 200px;
+    width: 1500px;
+    margin: 6px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 20px;
+}
+
+.aussenrum {
+    text-align: center;
+    margin: 6px;
+    padding: 0;
+}
+
+.fotolinks {
+    display: inline-block;
+    height: 20px;
+    width: 500px;
+    margin: 6px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 40px;
+    background-color: white;
+    text-align: center;
+/* Transparenz der Box durch "Opacity 0.3" oder soooo
+NUR Box, nicht schrift!*/
+}
+
+.fotolinks a {
+    color: black;
+    text-decoration: none;
+}
+
+.Speisekarte {
+    align-items: center; 
+    margin-left: 3%; 
+}
+
+#kleinererText{
+    font-size: 30px;
+}
+
+#größererText{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.größereTextbox { /*Anfahrtsseite*/
+    background-color: beige;
+    text-align: center;
+    display: inline-block;
+    height: 600px;
+    width: 1500px;
+    margin: 6px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 20px;
+}
+
